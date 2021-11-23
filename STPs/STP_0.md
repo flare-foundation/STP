@@ -1,22 +1,18 @@
 # STP - Songbird Test Proposal 0
 
----
-stp: 0
-title: STP Purpose and Guidelines
-status: Proposal
-type: Meta
-author: ?
-created: 2021-11-21
----
+stp | title | status | type | author | created
+--- | --- | --- | --- | --- | ---
+0 | STP Purpose and Guidelines | Proposal | Meta | ? | 2021-11-21
+
 ## Background
 Songbird is the Canary Network for Flare. Prior to the launch of the Flare Network (Flare) the protocols that make up Flare at inception are intended to be tested with Songbird. Post the launch of Flare it is envisioned that Songbird will remain the long term testing ground for upgrades to the Flare Network. Changes to Flare will happen via a Flare Improvement Proposal (FIP) process which will result in Songbird Testing Proposals (STP’s) where those changes to Flare require testing on Songbird.
 
-### Songbird governance systems
+## Songbird governance systems
 Songbird has two governance systems:
-
-1) Songbird Testing Proposal (STP). This proposal system is the mechanism by which the initial protocols on Flare and then later ongoing upgrades to Flare are tested. This is detailed below. 
-
-2) Songbird Improvement Proposal (SIP). This proposal process will be elaborated elsewhere but generally defines how a change is made to Songbird. A SIP that breaks compatibility with Flare’s core protocols so as to make future testing of Flare Improvement Proposals (FIP) impossible on Songbird will be automatically rejected unless and until there is a SIP that specifically brings to an end the status of Songbird as Flare’s Canary Network. Naturally whilst Songbird remains Flare’s Canary Network this reduces the set of potential changes that can be made to Songbird.
+### Songbird Testing Proposal (STP).
+This proposal system is the mechanism by which the initial protocols on Flare and then later ongoing upgrades to Flare are tested. This is detailed below. 
+### Songbird Improvement Proposal (SIP).
+This proposal process will be elaborated elsewhere but generally defines how a change is made to Songbird. A SIP that breaks compatibility with Flare’s core protocols so as to make future testing of Flare Improvement Proposals (FIP) impossible on Songbird will be automatically rejected unless and until there is a SIP that specifically brings to an end the status of Songbird as Flare’s Canary Network. Naturally whilst Songbird remains Flare’s Canary Network this reduces the set of potential changes that can be made to Songbird.
 
 ### STP purpose
 
@@ -34,30 +30,31 @@ Prior to the launch of Flare the simplified Songbird governance process will be 
 ### Post flare launch
 Post the launch of Flare the procedure will be identical from the vantage point of Songbird but step 1 above will be precipitated by the Flare Improvement Proposal process. 
 
-#### Free float definition 
+### Free float definition 
 
 All of the SGB that is not held by the Flare Foundation.
 
-## STP Strucuture
+## Proposal Strucuture
 
-Structure of a Songbird Improvement Proposal
-A valid Songbird Improvement Proposal will be structured as follows: 
+A valid Proposal, both for STP and SIP will be structured as follows: 
 
-a) Brief description. 
+a) A table detailing: #, title, status, type, author, date
 
-b) Technical description. 
+c) Brief description. 
 
-c) Link to code repository. 
+c) Technical description. 
 
-d) Link to audit report if applicable. 
+d) Link to code repository. 
 
-e) Bug bounty information. 
+e) Link to audit report if applicable. 
 
-f) Proposed implementation date range.
+f) Bug bounty information. 
 
-g) Voting contract details.
+g) Proposed implementation date range.
 
-h) Deadline for voting.
+h) Voting contract details.
+
+i) Deadline for voting.
 
 ### Songbird Testing Proposal Cycles
 
