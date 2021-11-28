@@ -32,9 +32,7 @@ Prior to the launch of Flare the simplified Songbird governance process will be 
 
 ### Post flare launch
 Post the launch of Flare the procedure will be identical from the vantage point of Songbird but step 1 above will be precipitated by the Flare Improvement Proposal process. 
-
 ### Free float definition 
-
 All of the SGB that is not held by the Flare Foundation.
 
 ## Proposal Strucuture
