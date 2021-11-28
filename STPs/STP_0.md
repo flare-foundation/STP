@@ -1,8 +1,11 @@
 # STP - Songbird Test Proposal 0
 
-| stp | title                       | status   | type | author | created |
-| --- | ---                         | ---      | ---  | ---    | --- |
-| 0   |  STP Purpose and Guidelines | Proposal | Meta | ?      | 2021-11-21 |
+stp: | 0  
+--- | ---
+title: | STP Purpose and Guidelines
+status: | Proposal
+type: | Meta
+created: | 21-Nov-2021
 
 ## Background
 Songbird is the Canary Network for Flare. Prior to the launch of the Flare Network (Flare) the protocols that make up Flare at inception are intended to be tested with Songbird. Post the launch of Flare it is envisioned that Songbird will remain the long term testing ground for upgrades to the Flare Network. Changes to Flare will happen via a Flare Improvement Proposal (FIP) process which will result in Songbird Testing Proposals (STP’s) where those changes to Flare require testing on Songbird.
