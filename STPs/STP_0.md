@@ -41,21 +41,21 @@ A valid Proposal, both for STP and SIP will be structured as follows:
 
 a) A table detailing: #, title, status, type, author, date
 
-c) Brief description.
+b) Brief description.
 
-d) Technical description.
+c) Technical description.
 
-e) Link to code repository.
+d) Link to code repository.
 
-f) Link to audit report if applicable.
+e) Link to audit report if applicable.
 
-g) Bug bounty information if applicable.
+f) Bug bounty information if applicable.
 
-h) Proposed implementation date range.
+g) Proposed implementation date range.
 
-i) Voting contract details.
+h) Voting contract details.
 
-j) Deadline for voting.
+i) Deadline for voting.
 ### Songbird Testing Proposal Cycles
 
 At Flare launch Songbird and Flare will have virtually identical codebases. Whilst Songbird remains Flare’s Canary Network, when FIPs pass through to implementation stage an STP will then be put forward by the Flare Foundation. If the proposal is not rejected it will be implemented on Songbird. If that proposal is subsequently implemented on Flare the codebases will again converge in all relevant areas. If the proposal is not implemented on Flare the change to Songbird may be rolled back to maintain compatibility.
