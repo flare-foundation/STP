@@ -43,19 +43,19 @@ a) A table detailing: #, title, status, type, author, date
 
 c) Brief description.
 
-c) Technical description.
+d) Technical description.
 
-d) Link to code repository.
+e) Link to code repository.
 
-e) Link to audit report if applicable.
+f) Link to audit report if applicable.
 
-f) Bug bounty information if applicable.
+g) Bug bounty information if applicable.
 
-g) Proposed implementation date range.
+h) Proposed implementation date range.
 
-h) Voting contract details.
+i) Voting contract details.
 
-i) Deadline for voting.
+j) Deadline for voting.
 ### Songbird Testing Proposal Cycles
 
 At Flare launch Songbird and Flare will have virtually identical codebases. Whilst Songbird remains Flare’s Canary Network, when FIPs pass through to implementation stage an STP will then be put forward by the Flare Foundation. If the proposal is not rejected it will be implemented on Songbird. If that proposal is subsequently implemented on Flare the codebases will again converge in all relevant areas. If the proposal is not implemented on Flare the change to Songbird may be rolled back to maintain compatibility.
