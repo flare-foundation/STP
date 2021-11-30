@@ -3,7 +3,7 @@
 stp: | 0  
 --- | ---
 title: | STP Purpose and Guidelines
-status: | Proposal
+status: | Final
 type: | Meta
 created: | 21-Nov-2021
 
