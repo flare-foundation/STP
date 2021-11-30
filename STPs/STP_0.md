@@ -24,9 +24,9 @@ Prior to the launch of Flare the simplified Songbird governance process will be 
 
 1) An STP will be uploaded by the foundation to [this](https://github.com/flare-foundation/STPs) repo. 
 
-2) Voters may delegate their votes at any time up to the deadline. The vote power for calculation will be determined at a specific chosen block per proposal.
+2) Voters may delegate their votes at any time up to the deadline. The vote power for calculation will be determined at a random chosen block per proposal.
 
-3) The proposal automatically passes and is implemented if < 75% of Songbird Token Free Float opposes the proposal. The free flow amount can be obtained from the [supply](https://songbird-explorer.flare.network/address/0x5059bA6272Fa598efAaCC9b6FCeFef7366980aD7/read-contract) contract. In that contract read the value at API function 3 `getCirculatingSupplyAt` where one should set current block number to be queried.
+3) The proposal automatically passes and is implemented if < 75% of Songbird Token Free Float opposes the proposal. The free flow amount can be obtained from the [supply](https://songbird-explorer.flare.network/address/0x5059bA6272Fa598efAaCC9b6FCeFef7366980aD7/read-contract) contract. In that contract read the value at API function 3 `getCirculatingSupplyAt` where one should set which block number to be queried.
 
 ### Post flare launch
 Post the launch of Flare the procedure will be identical from the vantage point of Songbird except that step 1, above, will be precipitated by the FIP process. 
@@ -34,8 +34,6 @@ Post the launch of Flare the procedure will be identical from the vantage point 
 All of the SGB that is NOT held by the Flare Foundation.
 
 ## Proposal Strucuture
-
-A valid Proposal, both for STP and SIP will be structured as follows: 
 
 A valid Proposal, both for STP and SIP will be structured as follows:
 
